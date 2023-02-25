@@ -1,0 +1,25 @@
+
+.galeria  {
+    column-count: 4;
+    column-gap: 18px;
+    
+    
+}
+
+.galeria__titulo {
+    font-family: var(--montserrat);
+    color: var(--cinza-escuro);
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.galeria__img {
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
