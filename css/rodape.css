@@ -40,6 +40,9 @@
     text-transform: uppercase;
     color: var(--branco);
 }
+.rodape__link a:hover{
+    color: #D3D3D3;
+}
 
 
 @media screen and (max-width: 800px) {

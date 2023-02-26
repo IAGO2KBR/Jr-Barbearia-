@@ -18,18 +18,19 @@
     <link rel="stylesheet" href="/css/sobre.css">
     <link rel="stylesheet" href="/css/endereco.css">
     <link rel="stylesheet" href="/css/rodape.css">
+    <title>JR Barbearia</title>
   </head>
 
   <body>
     <header class="navbar container">  
-      <img src="./IMAGENS/logo 100x100.png" alt="logo da Jr Barbearia" class="navbar__logo">
+      <a href=""><img src="./IMAGENS/logo 100x100.png" alt="logo da Jr Barbearia" class="navbar__logo"></a>
       <nav class="navbar__navegacao">
           <ul>
               <li class="navbar__link"><a href="#" class="navbar__botao--home">Home</a></li>
-              <li class="navbar__link"><a href="#">Galeria</a></li>
-              <li class="navbar__link"><a href="#">Sobre</a></li>
-              <li class="navbar__link"><a href="#">Barbeiros</a></li>
-              <li class="navbar__link"><a href="#">Endereço</a></li>
+              <li class="navbar__link"><a href="#Galeria">Galeria</a></li>
+              <li class="navbar__link"><a href="#Sobre">Sobre</a></li>
+              <li class="navbar__link"><a href="#Barbeiros">Barbeiros</a></li>
+              <li class="navbar__link"><a href="#Endereço">Endereço</a></li>
              
           </ul>
       </nav>
@@ -39,11 +40,11 @@
     <section class="home container">
       <h1 class="home__titulo">JR BARBEARIA</h1>
             <p class="home__texto">Localizada em São Vicente, anexada ao Complexo Esportivo Vida. Venha nos conhecer e agende um horário. Se livre da espera tediosa pela sua vez de cortar o cabelo.</p>
-            <a class="home__botao botao" href="#">Agende Um horário</a>
+            <a class="home__botao botao" href="#Barbeiros">Agende Um horário</a>
         </section>
         
     <section class="galeria-header container">
-        <h2 class="galeria__titulo" >Galeria</h2>
+        <h2 id="Galeria" class="galeria__titulo" >Galeria</h2>
         <div class="galeria container">
         
             <img src="./IMAGENS/cortes__Cabelo/corte__Cabelo (1).jpg" alt="" class="galeria__img">
@@ -66,7 +67,7 @@
         
         <section class="sobre container">
           <div class="sobre__conteudo">
-              <h2 class="sobre__titulo">Sobre</h2>
+              <h2 id="Sobre" class="sobre__titulo">Sobre</h2>
               <p class="sobre__texto">O homem moderno também cuida da sua aparência e na<strong class="sobre__texto--destaque"> JR Barbearia</strong> é o melhor lugar para fazer isso!</p>
               <p class="sobre__texto">
                 Temos uma equipe com os melhores profissionais da cidade e condições especiais para você sair daqui de cabelo na régua.
@@ -84,7 +85,7 @@
           <img src="/IMAGENS/ambiente.png" alt="Sobre a Apeperia" class="sobre__imagem">
       </section>
       
-      <h2 class="barbeiros__titulo">Barbeiros</h2> 
+      <h2 id="Barbeiros" class="barbeiros__titulo">Barbeiros</h2> 
       <p class="Barbeiro__texto">Conheça um pouco mais sobre os nossos barbeiros e aproveite agende um horário direto com o Barbeiro da sua preferência. <strong class="barbeiro__texto--destaque">lembre o melhor amigo do homem não é o cachorro é o Barbeiro.</strong></p>
        
       <section class="barbeiros container">
@@ -93,19 +94,22 @@
                 <div class="barbeiro__card">
                     <img src="./IMAGENS/jrBarber.jpg" alt="" class="barbeiro__imagem">
                     <p class="barbeiro__nome">Wellerson Figueiredo</p>
-                    <p class="barbeiro__decricao">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi, impedit quisquam eius corporis illo consequatur non quod! Dolorem a cumque deserunt vero repudiandae inventore facere quos !</p>
+                    <p class="barbeiro__decricao">Busco entregar o melhor corte em cada oportunidade, sou ávido pelo progresso e evolução sendo hoje empreendedor tenho como objetivo prezar pela QUALIDADE de meus serviços, atendimentos e instalações, tudo para possibilitar uma experiência única para os nossos CLIENTES. </p>
                     <a href="https://api.whatsapp.com/send/?phone=5522992588730&text&type=phone_number&app_absent=0"  class="barbeiro__botao">Contato</a>
                   </div>
                 <div class="barbeiro__card">
                     <img src="/IMAGENS/thft2.jpg" alt=""class="barbeiro__imagem">
                     <p class="barbeiro__nome">Tiago Medeiros</p>
-                    <p class="barbeiro__decricao">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic distinctio culpa corporis voluptate odio odit eveniet dolor, alias libero laboriosam excepturi a quidem illum saepe error porro magni sunt iure?</p>
+                    <p class="barbeiro__decricao">Minha missão Oferecer o melhor serviço de cuidados com o cabelo e a barba do homem moderno, favorecendo sua AUTOESTIMA com SOFISTICAÇÃO e ELEGÂNCIA. Cada CLIENTE é único e a sua PREFERÊNCIA no momento de escolha é algo que valorizo muito, buscando entregar o melhor corte.
+
+                      
+              </p>
                     <a href="https://api.whatsapp.com/send/?phone=5522999241939&text&type=phone_number&app_absent=0" class="barbeiro__botao">Contato</a>
                   </div>
       </section>
       
       <section class="endereco container">
-        <h2 class="endereco__titulo">Endereço</h2>
+        <h2 id="Endereço" class="endereco__titulo">Endereço</h2>
         <div class="endereco__conteudo">
             <div class="endereco__informacoes">
                 <p class="endereco__descricao">Um pouco mais sobre a JR Barbearia</p>
@@ -122,7 +126,7 @@
     </section>
   </main> 
     <footer class="rodape container">
-      <img src="/IMAGENS/logo 100x100.png" alt="Logo da Jr Barbearia" class="rodape__logo">
+      <a href=""><img src="./IMAGENS/logo 100x100.png" alt="logo da Jr Barbearia" class="rodape__logo"></a>
       <ul class="rodape__social">
           <li><a href="https://www.facebook.com/profile.php?id=100063587473261" class="rodape__midia"><img src="/IMAGENS/facebook.png" alt="Ícone do Facebook"></a></li>
           <li><a href="https://www.instagram.com/jr._barbearia/" class="rodape__midia"><img src="/IMAGENS/instagram.png" alt="Ícone do Instagram"></a></li>
@@ -130,10 +134,10 @@
       <nav>
           <ul class="rodape__navegacao">
               <li class="rodape__link"><a href="#">home</a></li>
-              <li class="rodape__link"><a href="#">galeria</a></li>
-              <li class="rodape__link"><a href="#">sobre</a></li>
-              <li class="rodape__link"><a href="#">barbeiros</a></li>
-              <li class="rodape__link"><a href="#">endereço</a></li>
+              <li class="rodape__link"><a href="#Galeria">galeria</a></li>
+              <li class="rodape__link"><a href="#Sobre">sobre</a></li>
+              <li class="rodape__link"><a href="#Barbeiros">barbeiros</a></li>
+              <li class="rodape__link"><a href="#Endereço">endereço</a></li>
           </ul>
       </nav>
   </footer>
